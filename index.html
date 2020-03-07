@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wp's portfolio</title>
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 480px)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 481px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="main.css" media="screen and (min-width: 1025px)">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="shortcut icon" href="img/wp.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script src="t.min.js"></script>
+</head>
+
+<body>
+    <!-- homeはここから -->
+    <div class="home">
+        <canvas class="background"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+        <div class="header">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Works</li>
+            </ul>
+        </div>
+        <div id="nav-toggle">
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="global-nav">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+                    <li>Works</li>
+                    <li class="header-icon">
+                        <a href="https://twitter.com/workspartner" target=_blanck><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/workspartner" target=blanck> <i class="fab fa-github"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="box">
+            <h1 id="first">Thank you for visiting</h1>
+            <h1 id="second">wp's portfolio</h1>
+            <h2 id="third">学生４人が丁寧で迅速な<br class="mobile">コーディングを提供します</h2>
+        </div>
+    </div>
+    <!-- aboutはここから -->
+    <div class="about fade-in">
+        <div class="about-title">
+            <h1>- About -</h1>
+        </div>
+        <div class="about-main">
+            <div class="wp-icon">
+                <img src="img/wp-icon.png">
+            </div>
+            <div class="wp-intro">
+                <p>workspartnerは学生4人でWeb制作を行っているサークルです。</p>
+                <p>2019/11から活動を開始。週に1回は進捗報告会を開いています。</p>
+                <p>主な業務はHTML/CSS/JavaScriptコーディングなど。</p>
+            </div>
+        </div>
+    </div>
+    <!-- skillsはここから -->
+    <div class="skills fade-in">
+        <div class="skills-title">
+            <h1>- Skills -</h1>
+        </div>
+        <div class="skills-main">
+            <div class="skill HTML-CSS">
+                <div class="skill-img">
+                    <img src="img/HTML-CSS.png">
+                </div>
+                <div class="skill-text">
+                    <p class="skill-name">HTML / CSS</p>
+                    <p>指定された通りにカラーやサイズなど<br class="pc">丁寧にお作りします。</p>
+                </div>
+            </div>
+            <div class="skill JavaScript">
+                <div class="skill-img">
+                    <img src="img/js.png">
+                </div>
+                <div class="skill-text">
+                    <p class="skill-name">JavaScript</p>
+                    <p>細かいアニメーションなど<br class="pc">動きのあるサイトを作成します。</p>
+                </div>
+            </div>
+            <div class="skill jQuery">
+                <div class="skill-img">
+                    <img src="img/jQuery.png">
+                </div>
+                <div class="skill-text">
+                    <p class="skill-name">JQuery</p>
+                    <p>このポートフォリオではjQueryプラグインのparticles.jsとt.min.jsを使用しています。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- worksはここから -->
+    <div class="works fade-in">
+        <div class="works-title">
+            <h1>- Works -</h1>
+        </div>
+        <div class="works-main">
+            <div class="work">
+                <a href="index.html"> <img src="img/wp-portfolio.png"> </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-icon">
+            <a href="https://twitter.com/workspartner" target=_blanck> <i class="fab fa-twitter fa-2x"></i> </a>
+            <a href="https://github.com/workspartner" target=blanck> <i class="fab fa-github fa-2x"></i> </a>
+        </div>
+        <div class="copyright">
+            <p>Copyright © WP All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>
